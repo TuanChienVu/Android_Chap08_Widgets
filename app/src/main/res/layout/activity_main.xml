@@ -1,0 +1,73 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvcoffee"
+        android:text="@string/txtcoffe"
+        android:textSize="20dp"
+        android:background="#ffff34"
+        android:layout_margin="10dp"
+        android:gravity="center" />
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdTrungNguyen"
+            android:text="@string/CfTrungNguyen"
+            />
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdNet"
+            android:text="@string/CfNet"
+            />
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cflet"
+            android:text="@string/CfLets"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvsua"
+        android:text="@string/txtsua"
+        android:textSize="20dp"
+        android:background="#ffff34"
+        android:layout_margin="10dp"
+        android:gravity="center" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkSuggar"
+        android:text="@string/chkSuggar"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkMilk"
+        android:text="@string/chkMilk"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDisplay"
+        android:text="@string/btnDisplay"
+        android:layout_gravity="center"
+        android:background="#fbd397" />
+
+</LinearLayout>

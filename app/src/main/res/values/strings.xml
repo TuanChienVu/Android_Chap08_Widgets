@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoRadioButton</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="CfTrungNguyen">Cf. Trung Nguyen</string>
+    <string name="CfNet">Cf. Net</string>
+    <string name="CfLets">Cf. Lets</string>
+    <string name="txtcoffe">Please choose your coffee brand</string>
+    <string name="txtsua">Choose your kind of coffee </string>
+    <string name="chkMilk">Milk </string>
+    <string name="chkSuggar">Suggar </string>
+    <string name="btnDisplay">Display</string>
+</resources>
